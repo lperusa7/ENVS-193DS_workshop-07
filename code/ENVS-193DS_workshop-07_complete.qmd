@@ -21,9 +21,11 @@ library(ggeffects) # generating model predictions
 library(gtsummary) # generating summary tables for models
 
 # abalone data from Hamilton et al. 2022
+# telling R to look into the "data" folder for the abolone data file
 abalone <- read_xlsx(here("data", "Abalone IMTA_growth and pH.xlsx"))
 
 # Sonadora temperature data from Alonzo, A. 2024
+# telling R to look in the "data" folder for the temperature file
 sonadora <- read_csv(here("data", "Temp_SonadoraGradient_Daily.csv"))
 ```
 
@@ -65,8 +67,11 @@ ggplot(data = abalone_clean,
   # first layer: points representing abalones
   geom_point(size = 4,
              stroke = 1,
-             fill = "firebrick4",
-             shape = 21)
+             fill = "#349874",
+             shape = 21) +
+  theme_minimal() + # changing theme
+  labs(x = "pH", # labelling axis
+       y = "Change in shell surface area per day")
 ```
 
 ## d. Abalone model
