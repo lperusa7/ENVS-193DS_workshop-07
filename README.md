@@ -6,9 +6,7 @@ All READMEs for this class should have the following sections:
 
 ## General information
 
-What is this repo for?
-
-Whose repo is it? Who is contributing to it?
+This repository is for the 5 PM class. I am testing forking, cloning, and using GitHub Pages.
 
 ## Data and file information
 
@@ -18,4 +16,4 @@ What code is there, and what does it do?
 
 ## Rendered output
 
-Link to the rendered output. Make sure it is a **working url**. You can test this by sharing the url with someone else to open on their computer - if it doesn't work, that means your GitHub pages set up didn't work.
+The rendered .html for this workshop's materials is [here](https://lperusa7.github.io/ENVS-193DS_workshop-07/code/ENVS-193DS_workshop-07_complete.html)
